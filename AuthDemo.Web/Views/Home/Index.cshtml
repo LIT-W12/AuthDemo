@@ -1,0 +1,17 @@
+﻿@model HomeViewModel
+
+<h2>@Model.Message</h2>
+@if(Model.User != null)
+{
+    <h2>Hello @Model.User.FirstName @Model.User.LastName</h2>
+}
+
+<h3>View Logic:</h3>
+@if (User.Identity.IsAuthenticated)
+{
+    <h3>View knows you're logged in</h3>
+}
+else
+{
+    <h3>View knows you're not logged in</h3>
+}
