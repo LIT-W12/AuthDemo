@@ -11,7 +11,9 @@ When referencing BCrypt in the data class library, make sure to reference BCrypt
 Here are the relevant pieces of code needed to make this work. First, you need to set up Authentication in the `Program.cs` file:
 
 https://github.com/LIT-W12/AuthDemo/blob/master/AuthDemo.Web/Program.cs#L6
+
 https://github.com/LIT-W12/AuthDemo/blob/master/AuthDemo.Web/Program.cs#L12-L18
+\
 https://github.com/LIT-W12/AuthDemo/blob/master/AuthDemo.Web/Program.cs#L34-L36
 
 Then, to actually log a user in, here's the code needed for that (in the `AccountController.cs`):
